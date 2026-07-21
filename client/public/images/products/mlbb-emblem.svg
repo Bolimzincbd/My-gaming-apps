@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="MLBB emblem build listing">
+  <rect width="720" height="420" fill="#10141f"/>
+  <polygon points="360,48 575,172 575,296 360,372 145,296 145,172" fill="#172234" stroke="#f6c658" stroke-width="5"/>
+  <circle cx="360" cy="210" r="70" fill="#f6c658"/>
+  <circle cx="238" cy="173" r="36" fill="#4ed7ff"/>
+  <circle cx="482" cy="173" r="36" fill="#66e49b"/>
+  <circle cx="276" cy="294" r="32" fill="#ff5c7a"/>
+  <circle cx="444" cy="294" r="32" fill="#b48cff"/>
+  <path d="M360 210 L238 173 M360 210 L482 173 M360 210 L276 294 M360 210 L444 294" stroke="#f4f7fb" stroke-width="6" opacity=".65"/>
+  <text x="208" y="406" fill="#f4f7fb" font-family="Arial, sans-serif" font-size="26" font-weight="700">MARKSMAN EMBLEM BOARD</text>
+</svg>

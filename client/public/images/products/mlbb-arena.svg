@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-label="MLBB arena map">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#151b27"/>
+      <stop offset="1" stop-color="#07090f"/>
+    </linearGradient>
+    <linearGradient id="lane" x1="0" x2="1">
+      <stop offset="0" stop-color="#f6c658"/>
+      <stop offset="1" stop-color="#4ed7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="620" fill="url(#bg)"/>
+  <path d="M120 500 C330 390 410 260 600 310 C790 360 870 230 1080 120" fill="none" stroke="#263247" stroke-width="86" stroke-linecap="round"/>
+  <path d="M130 105 C330 220 415 350 600 310 C790 270 885 395 1075 520" fill="none" stroke="#202a3d" stroke-width="72" stroke-linecap="round"/>
+  <path d="M95 560 L1105 60" stroke="url(#lane)" stroke-width="10" stroke-linecap="round" opacity=".82"/>
+  <path d="M95 65 L1105 555" stroke="#66e49b" stroke-width="7" stroke-linecap="round" opacity=".5"/>
+  <circle cx="600" cy="310" r="92" fill="#121826" stroke="#f6c658" stroke-width="4"/>
+  <circle cx="600" cy="310" r="34" fill="#f6c658" opacity=".85"/>
+  <rect x="70" y="470" width="150" height="80" rx="8" fill="#24304a" stroke="#4ed7ff"/>
+  <rect x="980" y="70" width="150" height="80" rx="8" fill="#2a2438" stroke="#f6c658"/>
+  <text x="96" y="518" fill="#f4f7fb" font-family="Arial, sans-serif" font-size="28" font-weight="700">BASE</text>
+  <text x="1004" y="118" fill="#f4f7fb" font-family="Arial, sans-serif" font-size="28" font-weight="700">LORD</text>
+</svg>

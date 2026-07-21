@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" rx="40" fill="#091a2f"/>
+  <circle cx="658" cy="122" r="98" fill="#53F2FF" fill-opacity="0.25"/>
+  <path d="M102 440C170 322 268 234 404 162L520 222C414 356 304 446 174 492L102 440Z" fill="#FF6177"/>
+  <path d="M286 150H632V420H286V150Z" stroke="#53F2FF" stroke-width="18"/>
+  <text x="72" y="102" fill="#E6F2FF" font-size="52" font-family="Arial" font-weight="700">Valorant Team Coaching</text>
+  <text x="72" y="540" fill="#C5FF66" font-size="32" font-family="Arial">Rotation timing · VOD review · comp comms</text>
+</svg>

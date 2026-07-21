@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="MLBB hero guide listing">
+  <rect width="720" height="420" fill="#0b0f18"/>
+  <rect x="70" y="50" width="250" height="320" rx="8" fill="#161f2e" stroke="#4ed7ff" stroke-width="3"/>
+  <rect x="345" y="50" width="305" height="320" rx="8" fill="#141923" stroke="#f6c658" stroke-width="3"/>
+  <circle cx="195" cy="155" r="62" fill="#f6c658"/>
+  <path d="M156 230 H285 M156 266 H285 M156 302 H245" stroke="#9aa8ba" stroke-width="14" stroke-linecap="round"/>
+  <text x="382" y="125" fill="#f4f7fb" font-family="Arial, sans-serif" font-size="30" font-weight="700">COUNTER PICKS</text>
+  <text x="382" y="178" fill="#66e49b" font-family="Arial, sans-serif" font-size="24">Lane matchups</text>
+  <text x="382" y="224" fill="#4ed7ff" font-family="Arial, sans-serif" font-size="24">Item swaps</text>
+  <text x="382" y="270" fill="#f6c658" font-family="Arial, sans-serif" font-size="24">Emblem notes</text>
+</svg>

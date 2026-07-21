@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" rx="40" fill="#100E1E"/>
+  <rect x="92" y="104" width="616" height="392" rx="28" fill="#191633" stroke="#53F2FF" stroke-width="8"/>
+  <rect x="132" y="146" width="248" height="308" rx="20" fill="#53F2FF" fill-opacity="0.14" stroke="#53F2FF" stroke-width="6"/>
+  <rect x="420" y="146" width="248" height="308" rx="20" fill="#FF6177" fill-opacity="0.14" stroke="#FF6177" stroke-width="6"/>
+  <text x="160" y="198" fill="#E6F2FF" font-size="36" font-family="Arial">Blue Side</text>
+  <text x="460" y="198" fill="#E6F2FF" font-size="36" font-family="Arial">Red Side</text>
+  <text x="74" y="78" fill="#E6F2FF" font-size="52" font-family="Arial" font-weight="700">League Draft Prep Sheet</text>
+  <text x="74" y="548" fill="#E6F2FF" font-size="30" font-family="Arial">Draft priorities · matchup prep · scrim notes</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="MLBB replay review listing">
+  <rect width="720" height="420" fill="#0c111b"/>
+  <rect x="64" y="54" width="592" height="312" rx="8" fill="#111827" stroke="#b48cff" stroke-width="4"/>
+  <rect x="104" y="92" width="390" height="210" rx="6" fill="#1b2435"/>
+  <polygon points="264,142 264,254 360,198" fill="#f6c658"/>
+  <path d="M528 112 H614 M528 158 H614 M528 204 H590 M528 250 H614 M528 296 H570" stroke="#9aa8ba" stroke-width="14" stroke-linecap="round"/>
+  <text x="105" y="340" fill="#f4f7fb" font-family="Arial, sans-serif" font-size="26" font-weight="700">REPLAY REVIEW</text>
+</svg>

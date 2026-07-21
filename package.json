@@ -1,0 +1,18 @@
+{
+  "name": "game-matcher-and-market",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm.cmd run dev --workspace server\" \"npm.cmd run dev --workspace client\"",
+    "build": "npm.cmd run build --workspace server && npm.cmd run build --workspace client",
+    "test": "npm.cmd run test --workspace server && npm.cmd run test --workspace client",
+    "seed": "npm.cmd run seed --workspace server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

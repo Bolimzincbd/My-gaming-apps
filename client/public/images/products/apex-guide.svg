@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" rx="40" fill="#111117"/>
+  <path d="M112 500L272 146H528L688 500H112Z" fill="#FFBA52" fill-opacity="0.9"/>
+  <path d="M232 434L400 154L568 434H232Z" fill="#07111F"/>
+  <circle cx="400" cy="356" r="86" fill="#53F2FF" fill-opacity="0.2" stroke="#53F2FF" stroke-width="16"/>
+  <text x="80" y="96" fill="#E6F2FF" font-size="52" font-family="Arial" font-weight="700">Apex Ranked Macro Guide</text>
+  <text x="80" y="544" fill="#E6F2FF" font-size="30" font-family="Arial">Legend comps · zone pathing · endgame discipline</text>
+</svg>

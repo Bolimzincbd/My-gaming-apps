@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="MLBB squad scrim listing">
+  <rect width="720" height="420" fill="#090c13"/>
+  <rect x="52" y="58" width="616" height="304" rx="8" fill="#141b28" stroke="#4ed7ff" stroke-width="3"/>
+  <path d="M110 116 H610 M110 210 H610 M110 304 H610 M218 86 V334 M360 86 V334 M502 86 V334" stroke="#263247" stroke-width="5"/>
+  <g fill="#f6c658"><circle cx="160" cy="150" r="24"/><circle cx="302" cy="244" r="24"/><circle cx="444" cy="150" r="24"/><circle cx="560" cy="244" r="24"/></g>
+  <g fill="#66e49b"><circle cx="250" cy="150" r="20"/><circle cx="392" cy="244" r="20"/><circle cx="534" cy="150" r="20"/></g>
+  <text x="92" y="395" fill="#f4f7fb" font-family="Arial, sans-serif" font-size="27" font-weight="700">5V5 SQUAD SCRIM SETUP</text>
+</svg>

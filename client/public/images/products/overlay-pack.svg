@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" rx="40" fill="#06111D"/>
+  <rect x="76" y="92" width="648" height="416" rx="28" fill="#10243B" stroke="#53F2FF" stroke-width="8"/>
+  <rect x="120" y="136" width="264" height="248" rx="18" fill="#FF6177" fill-opacity="0.2" stroke="#FF6177" stroke-width="6"/>
+  <rect x="420" y="136" width="260" height="76" rx="18" fill="#53F2FF" fill-opacity="0.18" stroke="#53F2FF" stroke-width="6"/>
+  <rect x="420" y="238" width="260" height="146" rx="18" fill="#C5FF66" fill-opacity="0.14" stroke="#C5FF66" stroke-width="6"/>
+  <rect x="120" y="406" width="560" height="58" rx="16" fill="#FFBA52" fill-opacity="0.15" stroke="#FFBA52" stroke-width="6"/>
+  <text x="76" y="72" fill="#E6F2FF" font-size="52" font-family="Arial" font-weight="700">Esports Overlay Pack</text>
+  <text x="76" y="550" fill="#E6F2FF" font-size="30" font-family="Arial">Sponsor slots · roster layouts · broadcast-ready scenes</text>
+</svg>

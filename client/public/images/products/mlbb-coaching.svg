@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="MLBB coaching listing">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#1b2332"/><stop offset="1" stop-color="#0b0f18"/></linearGradient></defs>
+  <rect width="720" height="420" fill="url(#g)"/>
+  <rect x="48" y="48" width="624" height="324" rx="10" fill="#111827" stroke="#f6c658" stroke-width="4"/>
+  <path d="M140 302 L266 184 L344 246 L512 116" fill="none" stroke="#4ed7ff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="266" cy="184" r="26" fill="#f6c658"/>
+  <circle cx="344" cy="246" r="26" fill="#66e49b"/>
+  <circle cx="512" cy="116" r="26" fill="#ff5c7a"/>
+  <text x="76" y="102" fill="#f4f7fb" font-family="Arial, sans-serif" font-size="32" font-weight="700">MYTHIC DUO COACHING</text>
+  <text x="76" y="344" fill="#9aa8ba" font-family="Arial, sans-serif" font-size="24">Draft | Rotation | Turtle/Lord Timing</text>
+</svg>
