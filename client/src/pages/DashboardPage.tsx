@@ -1,24 +1,28 @@
 ﻿import React from 'react';
-// Changed to a named import with curly braces
-import { AppShell } from '../components/layout/AppShell';
-import DashboardCards from '../components/ui/DashboardCards';
+// 1. Remove the import { AppShell } from '../components/layout/AppShell';
+import DashboardMetrics from '../components/ui/DashboardCards';
 
 export const DashboardPage: React.FC = () => {
   return (
-    <AppShell>
-      <div className="max-w-7xl mx-auto p-6">
-        <h1 className="text-2xl font-bold text-white mb-6">Overview</h1>
-        
-        {/* Top Metric Cards */}
-        <DashboardCards />
-        
-        {/* Placeholder for the rest of your dashboard content */}
-        <div className="bg-gray-800 border border-gray-700 rounded-xl p-8 min-h-[400px] mt-8">
-          <p className="text-gray-400 text-center mt-20">
-            Additional dashboard content (charts, tables, active matches) goes here.
-          </p>
-        </div>
+    // 2. Remove <AppShell> and just return a standard container div
+    <div className="max-w-7xl mx-auto p-6 space-y-6">
+      
+      {/* Header Section */}
+      <div>
+        <h1 className="text-3xl font-bold text-white mb-2">Welcome back, GoldLanePilot</h1>
+        <p className="text-sm text-gray-400">
+          Marksman | Gold Lane | Cambodia | Trust 82. Track MLBB matches, marketplace notifications, and mock escrow orders from one place.
+        </p>
       </div>
-    </AppShell>
+
+      {/* New Clean Metrics Row */}
+      <DashboardMetrics />
+
+      {/* The rest of your dashboard grids (Live matches, Orders, etc.) */}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+         {/* Insert your other cards here */}
+      </div>
+      
+    </div>
   );
 };
