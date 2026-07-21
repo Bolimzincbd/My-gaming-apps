@@ -1,43 +1,27 @@
 ﻿import React from 'react';
-import DashboardPage from "./pages/DashboardPage";
-import { Activity, Bell, DollarSign, ShieldCheck } from 'lucide-react'; // Using DollarSign to match your screenshot
+import DashboardCards from '../components/ui/DashboardCards'; 
 
-const DashboardCards = () => {
-  const metrics = [
-    { title: 'Active matches', value: '1', icon: Activity },
-    { title: 'Notifications', value: '1', icon: Bell },
-    { title: 'Purchases', value: '2', icon: DollarSign },
-    { title: 'Trust score', value: '82', icon: ShieldCheck },
-  ];
-
+// Exporting as a named constant so it matches 'import { DashboardPage }' in App.tsx
+export const DashboardPage: React.FC = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
-      {metrics.map((metric, index) => {
-        const Icon = metric.icon;
-        return (
-          <div 
-            key={index} 
-            className="bg-[#121619] border border-gray-800 rounded-lg p-6 flex items-center justify-between hover:border-gray-700 transition-colors"
-          >
-            <div>
-              <p className="text-sm text-gray-400 font-medium mb-1">
-                {metric.title}
-              </p>
-              <h3 className="text-3xl font-bold text-white">
-                {metric.value}
-              </h3>
-            </div>
-            
-            {/* THE FIX IS HERE: STRICT SIZING ON THE WRAPPER AND THE ICON */}
-            <div className="p-3 bg-gray-800/50 rounded-lg flex items-center justify-center w-12 h-12 shrink-0">
-              <Icon className="w-6 h-6 text-emerald-400 shrink-0" />
-            </div>
-            
-          </div>
-        );
-      })}
+    <div className="max-w-7xl mx-auto p-6 space-y-6">
+      
+      {/* Header Section */}
+      <div>
+        <h1 className="text-3xl font-bold text-white mb-2">Welcome back, GoldLanePilot</h1>
+        <p className="text-sm text-gray-400">
+          Marksman | Gold Lane | Cambodia | Trust 82. Track MLBB matches, marketplace notifications, and mock escrow orders from one place.
+        </p>
+      </div>
+
+      {/* Metric Cards Component */}
+      <DashboardCards />
+
+      {/* The rest of your dashboard grids (Live matches, Orders, etc.) */}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+         {/* Insert your other dashboard cards here in the future */}
+      </div>
+      
     </div>
   );
 };
-
-export default DashboardCards;
