@@ -1,13 +1,15 @@
 import React from 'react';
+// Changed to a named import with curly braces
+import { AppShell } from '../components/layout/AppShell';
 import EscrowStepper from '../components/ui/EscrowStepper';
 
-const OrdersPage: React.FC = () => {
+export const OrdersPage: React.FC = () => {
   return (
-    <div className="bg-gray-900 min-h-screen p-6">
-      <div className="max-w-7xl mx-auto">
+    <AppShell>
+      <div className="max-w-7xl mx-auto p-6">
         <h1 className="text-2xl font-bold text-white mb-6">Order Tracking</h1>
         
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-8">
           {/* Main Order Details Area */}
           <div className="lg:col-span-2 bg-gray-800 border border-gray-700 rounded-xl p-8 min-h-[400px]">
             <h2 className="text-white text-lg font-semibold mb-4">Order Details</h2>
@@ -20,8 +22,6 @@ const OrdersPage: React.FC = () => {
           </div>
         </div>
       </div>
-    </div>
+    </AppShell>
   );
 };
-
-export default OrdersPage;
